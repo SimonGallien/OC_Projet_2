@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin:0; /*Initialise les marges du documents*/
 }
 
 :root {
@@ -24,6 +25,41 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;  
+}
+
+ .logo-header {
+    width: 61.09px;
+    height: 19px;
+    margin-top:20px;
+    margin-left: 5px;
+ }
+
+.list-nav {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-items {
+    font-size: 12px;
+    margin-right: 20px;
+    margin-left: 60px;
+    padding-top: 10px;
+}
+
+.nav-items:hover {
+    border-top: 2px solid blue;
+    color :blue;
+    }
+
 
 a {
     color: inherit;
