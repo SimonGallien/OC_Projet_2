@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/5d6dcc7e2f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -27,19 +28,21 @@
         </header>
         <main>
             <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre-ville ou en pleine nature</p>
+            <p class="info">En plein centre-ville ou en pleine nature</p>
             <div>
-                <form action="">
-
+                <form action="" method="post">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" name="rechercher">
+                    <button class="button-search">Rechercher</button>
                 </form>
             </div>
-            <div>
+            <div class="filter">
                 <p><span>Filtres</span></p>
                 <div>
-                    <button></button>
-                    <button></button>
-                    <button></button>
-                    <button></button>
+                    <button>Economique</button>
+                    <button>Familial</button>
+                    <button>Romantique</button>
+                    <button>Nos pétites</button>
                 </div>
             </div>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>

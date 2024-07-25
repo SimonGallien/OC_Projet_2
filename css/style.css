@@ -56,10 +56,54 @@ header {
 }
 
 .nav-items:hover {
-    border-top: 2px solid blue;
-    color :blue;
-    }
+    border-top: 2px solid var(--main-color);
+    color :var(--main-color);
+}
 
+h1 {
+    font-size: 22px;
+}
+
+.info {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: row; 
+    justify-content: left;  
+    margin-bottom: 20px;
+}
+
+.fa-location-dot {
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+}
+
+input {
+    padding: 10px;
+    border: 0.1px solid var(--main-bg-color);
+}
+
+.button-search {
+    background-color: var(--main-color);
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0.1px solid var(--main-bg-color);
+    font-size: 18px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+}
 
 a {
     color: inherit;
