@@ -143,33 +143,30 @@ h1 {
     width: 758px;
     display: flex;
     justify-content: left;
-    margin-bottom: 37.5px;
-    border: 3px solid blue;
+    margin-bottom: 35px;
 }
 
 .filter-title {
     font-size: 18px;
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
 
 .filter-option {
-    height: 50px;
+    /* height: 50px; */
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid blue;
 }
 
 .btn-filter {
+    height: 50px;
     font-size: 16px;
     background-color: white;
     border: 2px solid var(--filter-bg-color);
     border-radius: 25px;
     padding: 0px 19px;
     margin-left: 15px;
-    /* height: 50px; */
     text-align: left;
     display: flex;
     align-items: center;
@@ -178,11 +175,15 @@ h1 {
 .btn-filter i {
     width: 22px;
     height: 22px;
+    font-size: 22px;
     margin-right: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+}
+
+.fa-money-bill-wave {
+    font-size: 22px;
 }
 
 .btn-filter:hover {
