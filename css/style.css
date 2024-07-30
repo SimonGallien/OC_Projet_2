@@ -39,7 +39,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 30px;  
-    height: 80px;
 }
 
  .logo-header {
@@ -490,6 +489,33 @@ footer {
 @media (max-width: 767.98px) {
     .main-container {
         padding: 0 20px;
+    }
+    /****** Header ******/
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+        /* border: 1px solid rgb(0, 0, 0); */
+    }
+    .logo-header {
+        padding: 30px 0px;
+    }
+
+    .header-nav {
+        width: 100%;
+        
+    }
+
+    .nav-items {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 3px solid var(--main-bg-color);
+    }
+
+    .nav-items:hover {
+        border-top: hidden;
+        border-bottom: 3px solid var(--main-color);
+        color :var(--main-color);
     }
 
     /****** Filter ******/
