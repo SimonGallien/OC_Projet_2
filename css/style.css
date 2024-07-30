@@ -12,7 +12,6 @@
 
 .fa-solid {
     color: var(--main-color);
-    margin-right: 10px;
 }
 
 body {
@@ -116,6 +115,10 @@ h1 {
 .form-search input {
     width: 195px;
     border: 1px solid var(--main-bg-color);
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    font-size: 18px;
 }
 
 .form-search input::placeholder {
@@ -137,26 +140,49 @@ h1 {
 
 /******Filtres**********/
 .filter {
-    width: 750px;
+    width: 758px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 50px;
+    justify-content: left;
     margin-bottom: 37.5px;
+    border: 3px solid blue;
 }
 
 .filter-title {
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.filter-option {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
 }
 
 .btn-filter {
-    height: 100%;
-    font-size: 17px;
+    font-size: 16px;
     background-color: white;
     border: 2px solid var(--filter-bg-color);
     border-radius: 25px;
     padding: 0px 19px;
+    margin-left: 15px;
+    /* height: 50px; */
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.btn-filter i {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
 }
 
 .btn-filter:hover {
@@ -410,8 +436,21 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    /* Filter */
+    .filter {
+        width: 668px;;
+        flex-direction: column;
+    }
+
+    .btn-filter {
+        margin-left:0px;
+        margin-top: 20px;
+    }
+
+    /* hebergement and populaires */
     .hebergements-and-populaires {
         flex-direction: column;
+        justify-content: left;
     }
 
     .hebergements {
@@ -440,9 +479,31 @@ footer {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .fig-activites img {
+        height: 200px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .main-container {
+        padding: 0 20px;
+    }
+
+    /****** Filter ******/
+    .filter {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .filter-option {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .btn-filter {
+        font-size: 14px;
+        width: 48%;
+    }
 }
