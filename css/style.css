@@ -405,14 +405,6 @@ footer {
     align-items: flex-start;
 }
 
-/* .footer-container {
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    justify-content: space-between;
-    align-items: flex-start;
-} */
-
 .footer-title {
     font-size: 18px;
 }
