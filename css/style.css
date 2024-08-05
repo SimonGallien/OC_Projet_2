@@ -35,7 +35,7 @@ a {
     text-decoration: none;
 }
 
-/******header************/
+/****** header ************/
 
 header {
     display: flex;
@@ -84,7 +84,7 @@ header {
 .info-grp {
     margin-bottom: 35px;
 }
-/******Titre********/
+/****** Titre ********/
 h1 {
     font-size: 22px;
 }
@@ -95,13 +95,16 @@ h1 {
     margin-bottom: 35px;
 }
 
-/*******Formulaire de Recherche******/
+/******* Formulaire de Recherche ******/
 .form-search {
     display: flex;
     flex-direction: row; 
     justify-content: left;
+    width: 377px;
     height: 50px;
     margin-bottom: 35px;
+    border: 1px solid var(--main-bg-color);
+    border-radius : 10px;
 }
 
 .form-search .fa-location-dot {
@@ -118,11 +121,11 @@ h1 {
 
 .form-search input {
     width: 195px;
-    border: 1px solid var(--main-bg-color);
     font-weight: bold;
     color:black;
     text-align: center;
     font-size: 18px;
+    border: none;
 }
 
 .form-search input::placeholder {
@@ -146,7 +149,7 @@ h1 {
     display: none;
 }
 
-/******Filtres**********/
+/****** Filtres **********/
 .filter {
     width: 758px;
     display: flex;
@@ -161,7 +164,6 @@ h1 {
 }
 
 .filter-option {
-    /* height: 50px; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -256,7 +258,6 @@ h1 {
 
 .fa-star {
     margin-right: 2px;
-    /* padding-top: 8px; */
 }
 
 /****** Hebergements And Populaires ***********/
@@ -272,7 +273,7 @@ h1 {
     box-sizing: border-box; /*ALLER VOIR QUE FAIT CETTE LIGNE*/
 }
 
-/****** Hebergements ***********/
+/****** Section Hebergements ***********/
 .hebergements {
     width: 65%;
     display: flex;
@@ -298,8 +299,6 @@ h1 {
 .hebergements .card {
     display: flex;
     flex-direction: column;
-    /* min-width: 170px; */
-    /* width: 30%; */
 }
 
 .hebergements img {
@@ -326,7 +325,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-/****** Populaires ***********/
+/****** Section Populaires ***********/
 .populaires {
     width: 32%;
     display: flex;
@@ -373,7 +372,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-/******Activités************/
+/****** Section Activités ************/
 
 .activites {
     display: flex;
@@ -415,7 +414,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/******Footer**********/
+/****** Footer **********/
 
 footer {
     background-color: var(--main-bg-color);
@@ -462,7 +461,7 @@ footer {
         margin-top: 20px;
     }
 
-    /* hebergement and populaires */
+    /* Sections hebergement & populaires */
     .hebergements-and-populaires {
         flex-direction: column;
         justify-content: left;
@@ -520,7 +519,6 @@ footer {
     header {
         flex-direction: column;
         justify-content: space-between;
-        /* border: 1px solid rgb(0, 0, 0); */
     }
 
     .logo-header {
@@ -545,18 +543,26 @@ footer {
         color :var(--main-color);
     }
 
-    /******info-grp*****/
+    /****** info-grp *****/
     .info-grp {
         padding: 0px 20px;
     }
 
-    /******Search******/
+    /****** Search ******/
+
+    .form-search {
+        width: 100%;
+        border-radius: 10px 15px 15px 10px;
+    }
+
     .form-search input {
         width: 100%;
     }
 
     .button-search {
         width: 50px;
+        border-radius: 15px;
+        filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.5));
     }
 
     .button-search b {
@@ -565,7 +571,7 @@ footer {
 
     .fa-magnifying-glass {
         display:inherit;
-        font-size: 17px;
+        font-size: 17px;   
         color:white;
     }
 
@@ -636,7 +642,7 @@ footer {
         margin-top: 15px;
     }
     
-    /******Activités******/
+    /****** Section Activités ******/
     .activites {
         padding: 0px 30px 15px 30px;
         margin-bottom: 35px;
