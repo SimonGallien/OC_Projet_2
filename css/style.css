@@ -211,11 +211,23 @@ h1 {
     font-size: 16px;
 }
 
-
-.info-logements i {
-    font-size: 24px;
+.circle {
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--filter-bg-color);
+    border-radius: 50%;
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+.circle-i {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
 /***********************/
 
 /******Card General******/
