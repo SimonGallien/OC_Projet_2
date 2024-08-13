@@ -18,7 +18,6 @@
 
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     max-width: 1440px;
     min-width: 320px;
@@ -38,7 +37,10 @@ a {
     text-decoration: none;
 }
 
+/**************************/
 /****** header ************/
+/**************************/
+
 header {
     display: flex;
     align-items: center;
@@ -52,6 +54,7 @@ header {
     height: 19px;
  }
 
+ /* NAV */
  .header-nav {
     width: 250px;
     height: 100%;
@@ -78,7 +81,9 @@ header {
     border-top: 3px solid var(--main-color);
     color :var(--main-color);
 }
+/***************************/
 /****** END OF HEADER ******/
+/***************************/
 
 /*******************************************/
 /*********** info-grp Container ************/
@@ -203,7 +208,7 @@ h1 {
     background-color: var(--filter-bg-color);
 }
 
-/***********************/
+/* Small sentence of information with icone */
 .info-logements {
     display: flex;
     justify-content: left;
@@ -214,7 +219,6 @@ h1 {
     font-size: 16px;
 }
 
-/* Small sentence of information with icone */
 .circle {
     width: 24px;
     height: 24px;
@@ -225,13 +229,16 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
 .circle-i {
     font-size: 16px;
     font-weight: bold;
     color: var(--main-color);
     font-family: "Solway", serif;
 }
-/******************************************/
+/*******************************************/
+/*********** END OF info-grp Container ************/
+/*******************************************/
 
 /******Card General******/
 .section-title {
