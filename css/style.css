@@ -397,6 +397,8 @@ h1 {
     flex-direction: column;
     margin-top: 35px;
     margin-bottom: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .fig-list {
