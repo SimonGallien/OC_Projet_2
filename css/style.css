@@ -407,15 +407,6 @@ h1 {
     margin-top: 20px; 
 }
 
-/* .fig-activites {
-    display: flex;
-    flex-direction: column;
-    width: 23%;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
-    background-color: #fff;
-    border-radius: 20px;
-} */
-
 .fig-list a {
     display: flex;
     flex-direction: column;
