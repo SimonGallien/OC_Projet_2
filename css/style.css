@@ -288,7 +288,7 @@ h1 {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
-    box-sizing: border-box; /*ALLER VOIR QUE FAIT CETTE LIGNE*/
+    box-sizing: border-box;
 }
 
 /****** Section Hebergements ***********/
@@ -482,7 +482,6 @@ footer {
     /* Sections hebergement & populaires */
     .hebergements-and-populaires {
         flex-direction: column;
-        justify-content: left;
     }
 
     .hebergements {
